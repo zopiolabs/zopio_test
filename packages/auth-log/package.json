@@ -1,0 +1,9 @@
+{
+  "name": "@repo/auth-log",
+  "version": "0.1.0",
+  "main": "./logger.ts",
+  "types": "./logger.ts",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

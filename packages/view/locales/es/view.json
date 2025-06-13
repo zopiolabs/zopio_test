@@ -1,0 +1,111 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ha ocurrido un error",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "create": "Crear",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "reset": "Restablecer",
+    "submit": "Enviar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "actions": "Acciones",
+    "noResults": "No se encontraron resultados",
+    "required": "Obligatorio"
+  },
+  "form": {
+    "validation": {
+      "required": "Este campo es obligatorio",
+      "email": "Por favor, introduce una dirección de correo electrónico válida",
+      "minLength": "Por favor, introduce al menos {min} caracteres",
+      "maxLength": "Por favor, introduce no más de {max} caracteres",
+      "pattern": "Por favor, introduce un valor válido",
+      "number": "Por favor, introduce un número válido",
+      "integer": "Por favor, introduce un número entero válido",
+      "min": "Por favor, introduce un valor mayor o igual a {min}",
+      "max": "Por favor, introduce un valor menor o igual a {max}"
+    },
+    "submit": "Enviar",
+    "reset": "Restablecer",
+    "saving": "Guardando...",
+    "saved": "Guardado correctamente",
+    "error": "Ha ocurrido un error al guardar"
+  },
+  "table": {
+    "pagination": {
+      "showing": "Mostrando {start} a {end} de {total} entradas",
+      "rowsPerPage": "Filas por página:",
+      "of": "de",
+      "next": "Siguiente",
+      "previous": "Anterior"
+    },
+    "filters": {
+      "title": "Filtros",
+      "apply": "Aplicar",
+      "clear": "Limpiar",
+      "value": "Valor",
+      "operators": {
+        "equals": "Igual a",
+        "contains": "Contiene",
+        "greaterThan": "Mayor que",
+        "lessThan": "Menor que"
+      }
+    },
+    "noResults": "No se encontraron resultados",
+    "loading": "Cargando datos...",
+    "error": "Ha ocurrido un error al cargar los datos"
+  },
+  "detail": {
+    "loading": "Cargando detalles...",
+    "error": "Ha ocurrido un error al cargar los detalles",
+    "notFound": "Elemento no encontrado"
+  },
+  "auditLog": {
+    "title": "Registro de Auditoría",
+    "user": "Usuario",
+    "action": "Acción",
+    "timestamp": "Fecha y hora",
+    "changes": "Cambios",
+    "noChanges": "No se registraron cambios",
+    "actions": {
+      "create": "Creado",
+      "update": "Actualizado",
+      "delete": "Eliminado",
+      "view": "Visualizado"
+    }
+  },
+  "import": {
+    "title": "Importar Datos",
+    "instructions": "Sube un archivo para importar datos",
+    "selectFile": "Seleccionar archivo",
+    "uploadFile": "Subir archivo",
+    "processing": "Procesando archivo...",
+    "success": "Archivo importado correctamente",
+    "error": "Ha ocurrido un error al importar el archivo",
+    "downloadTemplate": "Descargar plantilla",
+    "fileTypes": "Tipos de archivo soportados: {types}",
+    "maxFileSize": "Tamaño máximo de archivo: {size}MB"
+  },
+  "export": {
+    "title": "Exportar Datos",
+    "instructions": "Selecciona formato y opciones para exportar datos",
+    "format": "Formato",
+    "includeHeaders": "Incluir encabezados",
+    "fileName": "Nombre del archivo",
+    "generating": "Generando exportación...",
+    "success": "Exportación generada correctamente",
+    "error": "Ha ocurrido un error al generar la exportación",
+    "download": "Descargar",
+    "formats": {
+      "csv": "CSV",
+      "xlsx": "Excel",
+      "json": "JSON",
+      "pdf": "PDF"
+    }
+  }
+}

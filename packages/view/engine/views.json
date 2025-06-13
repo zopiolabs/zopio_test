@@ -1,0 +1,43 @@
+[
+  {
+    "type": "form",
+    "schema": "user",
+    "layout": [
+      "name",
+      "email",
+      "role"
+    ],
+    "fields": {
+      "name": {
+        "label": "Full Name",
+        "type": "text",
+        "required": true
+      },
+      "email": {
+        "type": "email"
+      },
+      "role": {
+        "type": "select",
+        "options": [
+          "admin",
+          "user"
+        ]
+      }
+    }
+  },
+  {
+    "type": "table",
+    "schema": "user",
+    "fields": {
+      "name": {
+        "label": "Name"
+      },
+      "email": {
+        "label": "Email"
+      },
+      "role": {
+        "label": "Role"
+      }
+    }
+  }
+]

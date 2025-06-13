@@ -1,0 +1,149 @@
+{
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "create": "Oluştur",
+    "search": "Ara",
+    "filter": "Filtrele",
+    "reset": "Sıfırla",
+    "submit": "Gönder",
+    "back": "Geri",
+    "next": "İleri",
+    "previous": "Önceki",
+    "actions": "İşlemler",
+    "noResults": "Sonuç bulunamadı",
+    "required": "Zorunlu",
+    "preview": "Önizleme"
+  },
+  "form": {
+    "validation": {
+      "required": "Bu alan zorunludur",
+      "email": "Lütfen geçerli bir e-posta adresi girin",
+      "minLength": "Lütfen en az {min} karakter girin",
+      "maxLength": "Lütfen en fazla {max} karakter girin",
+      "pattern": "Lütfen geçerli bir değer girin",
+      "number": "Lütfen geçerli bir sayı girin",
+      "integer": "Lütfen geçerli bir tam sayı girin",
+      "min": "Lütfen {min} veya daha büyük bir değer girin",
+      "max": "Lütfen {max} veya daha küçük bir değer girin"
+    },
+    "submit": "Gönder",
+    "reset": "Sıfırla",
+    "saving": "Kaydediliyor...",
+    "saved": "Başarıyla kaydedildi",
+    "error": "Kaydetme sırasında bir hata oluştu"
+  },
+  "table": {
+    "pagination": {
+      "showing": "Toplam {total} kayıttan {start} - {end} arası gösteriliyor",
+      "rowsPerPage": "Sayfa başına satır:",
+      "of": "/",
+      "next": "Sonraki",
+      "previous": "Önceki"
+    },
+    "filters": {
+      "title": "Filtreler",
+      "apply": "Uygula",
+      "clear": "Temizle",
+      "value": "Değer",
+      "operators": {
+        "equals": "Eşittir",
+        "contains": "İçerir",
+        "greaterThan": "Büyüktür",
+        "lessThan": "Küçüktür"
+      }
+    },
+    "noResults": "Sonuç bulunamadı",
+    "loading": "Veriler yükleniyor...",
+    "error": "Veri yükleme sırasında bir hata oluştu"
+  },
+  "detail": {
+    "loading": "Detaylar yükleniyor...",
+    "error": "Detaylar yüklenirken bir hata oluştu",
+    "notFound": "Öğe bulunamadı"
+  },
+  "auditLog": {
+    "title": "Denetim Kaydı",
+    "user": "Kullanıcı",
+    "action": "İşlem",
+    "timestamp": "Zaman",
+    "changes": "Değişiklikler",
+    "noChanges": "Kaydedilen değişiklik yok",
+    "actions": {
+      "create": "Oluşturuldu",
+      "update": "Güncellendi",
+      "delete": "Silindi",
+      "view": "Görüntülendi"
+    }
+  },
+  "import": {
+    "title": "Veri İçe Aktar",
+    "instructions": "Veri içe aktarmak için bir dosya yükleyin",
+    "selectFile": "Dosya seç",
+    "uploadFile": "Dosya yükle",
+    "processing": "Dosya işleniyor...",
+    "success": "Dosya başarıyla içe aktarıldı",
+    "error": "Dosya içe aktarılırken bir hata oluştu",
+    "downloadTemplate": "Şablonu indir",
+    "fileTypes": "Desteklenen dosya türleri: {types}",
+    "maxFileSize": "Maksimum dosya boyutu: {size}MB"
+  },
+  "export": {
+    "title": "Veri Dışa Aktar",
+    "instructions": "Veri dışa aktarmak için format ve seçenekleri belirleyin",
+    "format": "Format",
+    "includeHeaders": "Başlıkları dahil et",
+    "fileName": "Dosya adı",
+    "generating": "Dışa aktarma oluşturuluyor...",
+    "success": "Dışa aktarma başarıyla oluşturuldu",
+    "error": "Dışa aktarma oluşturulurken bir hata oluştu",
+    "download": "İndir",
+    "formats": {
+      "csv": "CSV",
+      "xlsx": "Excel",
+      "json": "JSON",
+      "pdf": "PDF"
+    }
+  },
+  "error": {
+    "title": "Görünüm İşleme Hatası",
+    "renderingFailed": "Bu görünüm işlenirken bir hata oluştu.",
+    "details": "Hata detayları",
+    "validation": "Görünüm Şeması Doğrulama Hatası",
+    "unsupportedType": "Desteklenmeyen görünüm türü: {type}",
+    "notFound": "Görünüm bulunamadı: {id}",
+    "unknown": "Bilinmeyen bir hata oluştu"
+  },
+  "designer": {
+    "title": "Görünüm Tasarımcısı",
+    "edit": "Düzenle",
+    "preview": "Önizleme",
+    "previewMode": "Önizleme Modu",
+    "viewType": "Görünüm Türü",
+    "schema": "Şema",
+    "fields": "Alanlar",
+    "addField": "Alan Ekle",
+    "fieldName": "Alan Adı",
+    "fieldType": "Alan Türü",
+    "fieldLabel": "Alan Etiketi",
+    "fieldRequired": "Zorunlu",
+    "fieldPlaceholder": "Yer Tutucu",
+    "fieldHelpText": "Yardım Metni",
+    "fieldOptions": "Seçenekler",
+    "fieldDefaultValue": "Varsayılan Değer",
+    "layout": "Düzen",
+    "layoutType": "Düzen Türü",
+    "layoutOptions": "Düzen Seçenekleri",
+    "saveView": "Görünümü Kaydet",
+    "deleteView": "Görünümü Sil",
+    "confirmDelete": "Bu görünümü silmek istediğinizden emin misiniz?",
+    "viewSaved": "Görünüm başarıyla kaydedildi",
+    "viewDeleted": "Görünüm başarıyla silindi",
+    "errorSaving": "Görünüm kaydedilirken bir hata oluştu",
+    "errorDeleting": "Görünüm silinirken bir hata oluştu"
+  }
+}

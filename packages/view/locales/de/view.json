@@ -1,0 +1,111 @@
+{
+  "common": {
+    "loading": "Wird geladen...",
+    "error": "Ein Fehler ist aufgetreten",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "create": "Erstellen",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "reset": "Zurücksetzen",
+    "submit": "Absenden",
+    "back": "Zurück",
+    "next": "Weiter",
+    "previous": "Zurück",
+    "actions": "Aktionen",
+    "noResults": "Keine Ergebnisse gefunden",
+    "required": "Erforderlich"
+  },
+  "form": {
+    "validation": {
+      "required": "Dieses Feld ist erforderlich",
+      "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+      "minLength": "Bitte geben Sie mindestens {min} Zeichen ein",
+      "maxLength": "Bitte geben Sie höchstens {max} Zeichen ein",
+      "pattern": "Bitte geben Sie einen gültigen Wert ein",
+      "number": "Bitte geben Sie eine gültige Zahl ein",
+      "integer": "Bitte geben Sie eine gültige Ganzzahl ein",
+      "min": "Bitte geben Sie einen Wert größer oder gleich {min} ein",
+      "max": "Bitte geben Sie einen Wert kleiner oder gleich {max} ein"
+    },
+    "submit": "Absenden",
+    "reset": "Zurücksetzen",
+    "saving": "Wird gespeichert...",
+    "saved": "Erfolgreich gespeichert",
+    "error": "Beim Speichern ist ein Fehler aufgetreten"
+  },
+  "table": {
+    "pagination": {
+      "showing": "Zeige {start} bis {end} von {total} Einträgen",
+      "rowsPerPage": "Zeilen pro Seite:",
+      "of": "von",
+      "next": "Weiter",
+      "previous": "Zurück"
+    },
+    "filters": {
+      "title": "Filter",
+      "apply": "Anwenden",
+      "clear": "Löschen",
+      "value": "Wert",
+      "operators": {
+        "equals": "Gleich",
+        "contains": "Enthält",
+        "greaterThan": "Größer als",
+        "lessThan": "Kleiner als"
+      }
+    },
+    "noResults": "Keine Ergebnisse gefunden",
+    "loading": "Daten werden geladen...",
+    "error": "Beim Laden der Daten ist ein Fehler aufgetreten"
+  },
+  "detail": {
+    "loading": "Details werden geladen...",
+    "error": "Beim Laden der Details ist ein Fehler aufgetreten",
+    "notFound": "Element nicht gefunden"
+  },
+  "auditLog": {
+    "title": "Prüfprotokoll",
+    "user": "Benutzer",
+    "action": "Aktion",
+    "timestamp": "Zeitstempel",
+    "changes": "Änderungen",
+    "noChanges": "Keine Änderungen aufgezeichnet",
+    "actions": {
+      "create": "Erstellt",
+      "update": "Aktualisiert",
+      "delete": "Gelöscht",
+      "view": "Angesehen"
+    }
+  },
+  "import": {
+    "title": "Daten importieren",
+    "instructions": "Laden Sie eine Datei hoch, um Daten zu importieren",
+    "selectFile": "Datei auswählen",
+    "uploadFile": "Datei hochladen",
+    "processing": "Datei wird verarbeitet...",
+    "success": "Datei erfolgreich importiert",
+    "error": "Beim Importieren der Datei ist ein Fehler aufgetreten",
+    "downloadTemplate": "Vorlage herunterladen",
+    "fileTypes": "Unterstützte Dateitypen: {types}",
+    "maxFileSize": "Maximale Dateigröße: {size}MB"
+  },
+  "export": {
+    "title": "Daten exportieren",
+    "instructions": "Wählen Sie Format und Optionen zum Exportieren von Daten",
+    "format": "Format",
+    "includeHeaders": "Überschriften einschließen",
+    "fileName": "Dateiname",
+    "generating": "Export wird generiert...",
+    "success": "Export erfolgreich generiert",
+    "error": "Beim Generieren des Exports ist ein Fehler aufgetreten",
+    "download": "Herunterladen",
+    "formats": {
+      "csv": "CSV",
+      "xlsx": "Excel",
+      "json": "JSON",
+      "pdf": "PDF"
+    }
+  }
+}

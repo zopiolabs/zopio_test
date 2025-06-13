@@ -1,0 +1,20 @@
+{
+  "name": "@repo/data-providers-firebase",
+  "version": "0.1.0",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./index.ts",
+  "description": "Firebase data provider for Zopio framework",
+
+  "dependencies": {},
+
+  "peerDependencies": {
+    "@repo/data-base": "workspace:*",
+    "firebase": "^10.0.0"
+  },
+  "devDependencies": {
+    "@repo/data-base": "workspace:*",
+    "typescript": "^5.0.0"
+  }
+}
+

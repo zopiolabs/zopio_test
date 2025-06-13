@@ -1,0 +1,15 @@
+{
+  "name": "@repo/adapters",
+  "version": "0.1.0",
+  "description": "Data format adapters for Zopio framework",
+  "main": "index.ts",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "peerDependencies": {
+    "@repo/adapters-common": "workspace:*",
+    "@repo/adapters-jsonapi": "workspace:*",
+    "@repo/adapters-odoo": "workspace:*"
+  }
+}
+

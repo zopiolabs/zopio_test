@@ -1,0 +1,12 @@
+{
+  "name": "@repo/adapters-common",
+  "version": "0.1.0",
+  "description": "Common utilities for data adapters in Zopio framework",
+  "main": "index.ts",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "peerDependencies": {
+    "@repo/data-base": "workspace:*"
+  }
+}

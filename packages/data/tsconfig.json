@@ -1,0 +1,22 @@
+{
+  "extends": "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "paths": {
+      "@repo/data-base": ["./base"],
+      "@repo/data-providers": ["./providers"],
+      "@repo/data-providers/*": ["./providers/*"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

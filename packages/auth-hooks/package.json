@@ -1,0 +1,9 @@
+{
+  "name": "@repo/auth-hooks",
+  "version": "0.1.0",
+  "main": "./hooks/useAccess.ts",
+  "types": "./hooks/useAccess.ts",
+  "dependencies": {
+    "@repo/auth-runner": "workspace:*"
+  }
+}

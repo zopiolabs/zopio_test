@@ -1,0 +1,17 @@
+{
+  "name": "@repo/view-builder",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@repo/view": "workspace:*"
+  },
+  "peerDependencies": {
+    "@repo/design-system": "workspace:*",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "next": "^14.0.0"
+  }
+}

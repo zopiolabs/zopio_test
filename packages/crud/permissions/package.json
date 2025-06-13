@@ -1,0 +1,11 @@
+{
+  "name": "@repo/crud-permissions",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "@repo/crud-engine": "workspace:*"
+  }
+}

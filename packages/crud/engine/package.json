@@ -1,0 +1,12 @@
+{
+  "name": "@repo/crud-engine",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@repo/data-base": "workspace:*",
+    "@repo/data-providers": "workspace:*"
+  }
+}

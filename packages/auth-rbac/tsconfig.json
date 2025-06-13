@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": ".",
+    "composite": true,
+    "incremental": true,
+    "typeRoots": ["./types", "./node_modules/@types", "../../node_modules/@types"]
+  },
+  "include": [".", "./types/*.d.ts"],
+  "exclude": ["dist", "build", "node_modules"]
+}

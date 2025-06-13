@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": ".",
+    "composite": true,
+    "incremental": true,
+    "paths": {
+      "@zopio/auth-rbac/*": ["../auth-rbac/*"],
+      "@zopio/auth-log": ["../auth-log/logger"],
+      "@zopio/auth-log/*": ["../auth-log/*"]
+    }
+  },
+  "include": ["."],
+  "references": [
+    { "path": "../auth-rbac" },
+    { "path": "../auth-log" }
+  ]
+}

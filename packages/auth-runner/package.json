@@ -1,0 +1,11 @@
+{
+  "name": "@repo/auth-runner",
+  "version": "0.1.0",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "dependencies": {
+    "@repo/auth-rbac": "workspace:*",
+    "@repo/auth-abac": "workspace:*",
+    "@repo/auth-log": "workspace:*"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "zopio-cli",
+  "version": "0.1.0",
+  "bin": {
+    "zopio": "./dist/zopio.js"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "tsx ./src/zopio.ts",
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "docs:generate": "tsx ./src/zopio.ts cli --docs ../docs/cli"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "inquirer": "^9.2.10",
+    "ora": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.5",
+    "@types/node": "^20.17.50",
+    "tsup": "^8.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.3.0"
+  }
+}
